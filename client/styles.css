@@ -1,3 +1,7 @@
 .title {
     text-align: center;
 }
+.tweet-form {
+    width: 50%;
+    margin: 0 auto;
+}
