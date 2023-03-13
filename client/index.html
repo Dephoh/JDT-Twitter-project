@@ -10,20 +10,23 @@
 </head>
 <body>
     <header>
-        <h1 class = "title">Twitter Clone<h1>
+        <h1 class = "title">Twitter Clone</h1>
     </header>
     <main>
         <form class="tweet-form">
-            <label for="name"> Name</label>
-            <input class = "u-full-width" type = "text"name="name">
-            <label for ="content">Tweet</label>
-            <textarea class="u-full-width" name="content" id="content"></textarea> 
-            <button class = "button-primary" type="submit">Send your Tweet</button>
+            <label for="name">Name</label>
+            <input class = "u-full-width" type="text" name="name" id="name">
+            <label for="content">Tweet</label>
+            <textarea class = "u-full-width" name="content" id="content"></textarea>
+            <button class = "button-primary" type="submit">Send your tweet</button>
         </form>
-        <div class = 'loading'>
-            <img src = 'loading.gif' alt="">
+        <div class="loading">
+            <img src="loading.gif" alt="">
+        </div>
+        <div class="tweets">
+
         </div>
     </main>
-    <script src = "client.js"></script>
+    <script src="client.js"></script>
 </body>
 </html>
